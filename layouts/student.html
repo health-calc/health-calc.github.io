@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="../styles/student.css">
+    <link rel="stylesheet" type="text/css" href="../styles/common.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="student">
+            <a href='../index.html' class="main-link">Главная</a>
+
+            <h1 class="student__title">Критерии Стьюдента и Фишера</h1>
+
+            <form action="" class="student__form" id="student__form">
+                <h2 class="student__subtitle">Выборка 1</h2>
+                <label for="student__form-input-average1" class="student__form-label">Среднее арифметическое: </label>
+                <input type="text" id="student__form-input-average1" class="student__input">
+                <br>
+                <label for="student__form-input-dispersion1" class="student__form-label">Дисперсия: </label>
+                <input type="text" id="student__form-input-dispersion1" class="student__input">
+                <br>
+                <label for="student__form-input-error1" class="student__form-label">Ошибка среднего арифметического: </label>
+                <input type="text" id="student__form-input-error1" class="student__input">
+                <br>
+
+                <h2 class="student__subtitle">Выборка 2</h2>
+                <label for="student__form-input-average2" class="student__form-label">Среднее арифметическое: </label>
+                <input type="text" id="student__form-input-average2" class="student__input">
+                <br>
+                <label for="student__form-input-dispersion2" class="student__form-label">Дисперсия: </label>
+                <input type="text" id="student__form-input-dispersion2" class="student__input">
+                <br>
+                <label for="student__form-input-error2" class="student__form-label">Ошибка среднего арифметического: </label>
+                <input type="text" id="student__form-input-error2" class="student__input">
+                <br>
+
+                <input type="reset" value="Очистить" class="student__button"/>
+                <input type="button" value="Вычислить" class="student__button" onclick="count()"/>
+            </form>
+        </div>
+    </div>
+
+    <script src='../js/student.js'></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="../styles/variation.css">
+    <link rel="stylesheet" type="text/css" href="../styles/common.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="variation">
+            <a href='../index.html' class="main-link">Главная</a>
+
+            <h1 class="variation__title">Вариация и ошибка среднего арифметического</h1>
+
+            <form action="" class="variation__form" id="variation__form">
+                <label for="variation__form-input-average" class="variation__form-label">Среднее арифметическое: </label>
+                <input type="text" id="variation__form-input-average" class="variation__input">
+                <br>
+                <label for="variation__form-input-variation" class="variation__form-label">Среднеквадратическое отклонение: </label>
+                <input type="text" id="variation__form-input-variation" class="variation__input">
+                <br>
+                <label for="variation__form-input-count" class="variation__form-label">Количество чисел: </label>
+                <input type="text" id="variation__form-input-count" class="variation__input">
+                <br>
+                <input type="reset" value="Очистить" class="variation__button"/>
+                <input type="button" value="Вычислить" class="variation__button" onclick="count()"/>
+            </form>
+        </div>
+    </div>
+
+    <script src='../js/variation.js'></script>
+  </body>
+</html>

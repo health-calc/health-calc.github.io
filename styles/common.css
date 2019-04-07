@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #eee;
+    width: 100%;
+    min-height: 100%;
+}
+
+.main-link {
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    top: 2px;
+    left: 25px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="../styles/average.css">
+    <link rel="stylesheet" type="text/css" href="../styles/common.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="average">
+            <a href='../index.html' class="main-link">Главная</a>
+
+            <h1 class="average__title">Среднее арифметическое и дисперсия</h1>
+
+            <form action="" class="average__form" id="average__form">
+                <label for="average__form-input-count" class="average__form-label">Введите количество чисел: </label>
+                <input type="text" id="average__form-input-count" class="average__input" onkeyup="creatingInputs()">
+                <br>
+                <label class="average__form-label">Введите числа: </label>
+                <div id="average__inputs"></div>
+                <input type="reset" value="Очистить" class="average__button"/>
+                <input type="button" value="Вычислить" class="average__button" onclick="count()"/>
+            </form>
+        </div>
+    </div>
+
+    <script src='../js/average.js'></script>
+  </body>
+</html>
